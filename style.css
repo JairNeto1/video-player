@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62, 5%;
+}
+
+body {
+  padding: 0;
+  display: flex;
+  background: 333;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000 0%, #333 48%, #686868 100%);
+  background-size: cover;
+  justify-content: center;
+}
+
+.video-player {
+  max-width: 750px;
+  position: relative;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+}
+
+.time {
+  color: white;
+}

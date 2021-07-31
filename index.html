@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+  , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css"
+    <title>Video Player</title>
+  </head>
+  <body>
+    <div class="video-player">
+      <video
+        src="src/video_player.mp4"
+        poster="src/poster.png"
+        class="video"
+      ></video>
+
+      <div class="player-controls">
+        <botton class="play-button" title="Play">▶️</botton>
+      </div>
+
+      <input type="range" class="volume" min="0" max="1" step="0.01" value="0.25"/>
+      
+      <div class="time">
+        <span class="current">0:00</span> / <span class="duration">0:00</span>
+      </div>
+
+    </div>
+
+    <script src="video.js"></script>
+  </body>
+</html>
