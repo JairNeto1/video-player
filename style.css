@@ -31,6 +31,65 @@ body {
   width: 100%;
 }
 
+.player-controls {
+  display: flex;
+  position: absolute;
+  bottom: 1;
+  width: 100%;
+  transform: translateY(-10%) translateY(-5px);
+  transition: 0.3s;
+  flex-wrap: wrap;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.video_player:hover .player-controls {
+  transform: translateY(10%);
+}
+
+.play-button {
+  width: 5%;
+  border: none;
+  background: black;
+  padding: 10px;
+}
+
+.play-button:focus {
+  outline: none;
+}
+
 .time {
+  font-size: 1rem;
   color: white;
+  width: 15%;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  background: transparent;
+  margin: 0;
+  padding: o 10px;
+}
+
+input[type='range']:focus {
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background: black;
+}
+
+input[type='range']::-webkit-slider-runnable-thumb {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background: orange;
 }

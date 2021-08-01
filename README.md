@@ -30,3 +30,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+
+Link do Vídeo - https://www.youtube.com/watch?v=iYVHjsLVWac&ab_channel=TrustlyOfficial
